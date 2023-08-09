@@ -1,1 +1,1 @@
-# Site sobre a ODS16.
+# Site de um cardápio digital.
