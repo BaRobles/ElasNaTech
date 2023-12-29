@@ -1,83 +1,119 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en-US">
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kaló Piáto – Cardápio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+  <title>Kaló Piáto – Menu</title>
+  <link rel="icon" type="image/png" href="imagens/kalo-favicon.png" sizes="32x32">
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/f21bc06b69.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
   <div class="title">
-    <h1 class="title__menu">Cardápio</h1>
-    <h1 class="title__name">Kaló Piáto</h1>
-    <h1 class="title__slogan">Descubra o sabor autêntico da Grécia em cada mordida!</h1>
+    <img class="logo" src="imagens/logo-kalo-piato.png" alt="">
   </div>
-  <div class="img-big">
-    <img src="imagens/greekbeach.jpeg" alt="Acrópole" class="title__img">
-  </div>
-
-<section class="menu">
-  <div class="dishes">
-    <div class="container">
-      <div class="img"><img src="imagens/greeksalad.jpg" alt="Salada grega" class="dish-img"></img>
-      </div>
-      <div class="container-text">
-        <h2 class="dish-title">Salada Grega</h2>
-        <p>Salada refrescante com pepino, tomate, cebola roxa e azeitonas Kalamata, regada com azeite de oliva extra virgem e coberta com queijo feta tradicional.</p>
-        <p>R$ 25,00</p>
-      </div>
-    </div>
-    <div class="container">
-      <div class="img"><img src="imagens/moussaka.jpg" alt="Moussaká" class="dish-img"></img>
-      </div>
-      <div class="container-text">
-        <h2 class="dish-title">Moussaká Vegetariano</h2>
-        <p>Camadas de berinjela, batata e abobrinha cozidas com molho de tomate caseiro, cobertas com um gratinado de queijo feta cremoso. Uma delícia mediterrânea sem carne. </p>
-        <p>R$ 38,00</p>
-      </div>
-    </div>
+  <div class="banner">
+    <ul class="buttons">
+      <li><a class="banner-btn" href="#">Order here</a></li>
+      <li><a class="banner-2btn" href="#">Reservations</a></li>
+    </ul>
   </div>
 
-  <div class="dishes">
-    <div class="container">
-      <div class="img">
-        <img src="imagens/spanakopita.jpg" alt="Spanakópita" class="dish-img"></img>
-      </div>
-      <div class="container-text">
-        <h2 class="dish-title">Spanakópita</h2>
-        <p>Pedaços de carne grelhada, servidos em um pão pita quentinho, complementado por uma seleção de acompanhamentos frescos. Uma explosão de sabores mediterrâneos!
-        </p>
-        <p>R$ 40,00</p>
-      </div>
+  <section class="menu">
+
+    <div class="img-container grid-item1-1"><img src="imagens/greeksalad.jpg" alt="Salada grega" class="dish-img"></img>
     </div>
-    <div class="container">
-      <div class="img">
-        <img src="imagens/souvlaki.jpg" alt="Souvláki" class="dish-img"></img>
-      </div>
-      <div class="container-text">
-        <h2 class="dish-title">Souvláki</h2>
-        <p>Souvláki suculento de carne grelhada, servido com pão pita quentinho e uma seleção de acompanhamentos frescos. Uma explosão de sabores mediterrâneos em cada mordida.</p>
-        <p>R$ 32,00</p>
-      </div>
+    <div class="container-text grid-item1-2">
+      <h2 class="dish-title">Greek Salad</h2>
+      <p class="dish-description">Refreshing salad with cucumber, tomato, red onion and Kalamata olives, drizzled with extra virgin olive oil and topped with traditional feta cheese.</p>
+      <p class="price">$ 12.49</p>
     </div>
-  </div>
-</section>
+
+    <div class="img-container grid-item2-1"><img src="imagens/moussaka.jpg" alt="Moussaká" class="dish-img"></img>
+    </div>
+    <div class="container-text grid-item2-2">
+      <h2 class="dish-title">Vegetarian Moussaka</h2>
+      <p class="dish-description">Layers of eggplant, potatoes and zucchini cooked in homemade tomato sauce, topped with a creamy feta cheese gratin. </p>
+      <p class="price">$ 18.99</p>
+    </div>
+
+    <div class="img-container grid-item3-1">
+      <img src="imagens/spanakopita.jpg" alt="Spanakopita" class="dish-img"></img>
+    </div>
+    <div class="container-text grid-item3-2">
+      <h2 class="dish-title">Spanakopita</h2>
+      <p class="dish-description">Traditional phyllo pastry filled with a tantalizing mix of spinach, feta cheese, onions, and aromatic herbs. Baked to a golden perfection. 
+      </p>
+      <p class="price">$ 13.98</p>
+    </div>
+
+    <div class="img-container grid-item4-1">
+      <img src="imagens/souvlaki.jpg" alt="Souvlaki" class="dish-img"></img>
+    </div>
+    <div class="container-text grid-item4-2">
+      <h2 class="dish-title">Souvlaki</h2>
+      <p class="dish-description">Succulent grilled meat souvláki, served with warm pita bread and a selection of fresh sides.</p>
+      <p class="price">$ 15.00</p>
+    </div>
+  </section>
 
   <footer>
-    
-    <h3>Delivery</h3>
-    <div class="tel">
-      <a href="https://wa.me/5511928282828" target="_blank"><i class="fa-brands fa-whatsapp"></i></i></a>
-      <a href="https://wa.me/5511928282828" target="_blank"><p>11 92828 2828</p></a>
-      
-    </div>
-    <p>Rua Tal, 9000 – Pinheiros – São Paulo/SP</p>
+    <img class="logo-footer" src="imagens/logo-white.png" alt="Kaló Piáto">
 
-    <p>Imagens coletadas do site Freepik.</p>
-    <p>@ Bá Robles 2023</p>
+    <div class="social-btns">
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+    </div>
+
+    <div class="footer-phone">
+      <h3>Phone</h3>
+      <a href="#" target="_blank" class="link-footer"><p>+1 555 234 5678</p></a>
+    </div>
+
+    <div class="footer-address">
+      <h3>Location</h3>
+      <p>1234 Maple Leaf Drive
+        Sunnyvale, TX 75082</p>
+    </div>
+
+    <div class="footer-hours">
+      <h3 class="table-title">Hours</h3>
+      <table class="footer-table">
+        <tr>
+          <td>Mon</td>
+          <td>Closed</td>
+        </tr>
+        <tr>
+          <td>Tues - Thurs</td>
+          <td>11:00AM - 8:00PM</td>
+        </tr>
+        <tr>
+          <td>Fri</td>
+          <td>11:00AM - 8:00PM</td>
+        </tr>
+        <tr>
+          <td>Sat</td>
+          <td>12:00PM - 9:00PM</td>
+        </tr>
+        <tr>
+          <td>Sun</td>
+          <td>4:00PM - 8:00PM</td>
+        </tr>
+      </table>
+    </div>
+
+    <ul class="footer-btns">
+      <li><a class="banner-btn" href="#">Order here</a></li>
+      <li><a class="banner-btn" href="#">Reservations</a></li>
+    </ul>
+
+    <div class="footer-credits">
+      <p>Images from <a class="link-footer" href="https://www.freepik.com">Freepik</a>.</p>
+      <p>@ Bá Robles 2023</p>
+    </div>
     
   </footer>
 </body>
